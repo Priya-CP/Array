@@ -1,11 +1,6 @@
 
-scores = []
-
-n = int(input("Enter number of scores: "))
-
-for i in range(n):
-    score = float(input("Enter score: "))
-    scores.append(score)
+import sys
+scores = list(map(int,sys.array[1:]))
 
 total = sum(scores)
 average = total / n
